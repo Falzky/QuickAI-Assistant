@@ -1,17 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Ai Assistant",
+  "name": "QuickAI Assistant",
   "version": "1.0",
-  "description": "Ai in your daily life",
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "contextMenus",
-    "tabs",
-    "storage",
-    "declarativeNetRequest"
-  ],
-  "host_permissions": ["http://127.0.0.1:11434/*"],
+  "description": "Professional AI-powered web content analysis tool powered by Gemini 3.",
+  "permissions": ["activeTab", "scripting", "contextMenus", "tabs", "storage"],
+  "host_permissions": ["https://generativelanguage.googleapis.com/*"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

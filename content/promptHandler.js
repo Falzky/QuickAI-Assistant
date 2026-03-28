@@ -238,7 +238,7 @@ class PromptHandler {
   callOllamaApi(payload) {
     this.promptUi.showLoading();
     chrome.runtime.sendMessage(
-      { action: "callOllamaApi", payload },
+      { action: "callGeminiApi", payload },
       (response) => {
         if (!response.success) {
           this.promptUi.showModal(`<p>Error: ${response.error}</p>`);
