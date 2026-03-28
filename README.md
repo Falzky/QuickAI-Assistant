@@ -1,71 +1,43 @@
-## Watch the full tutorial video from YouTube:
+Gemini said
+Got it. Let's get this done so you can move on to your CV.
 
-[![Alt text](https://img.youtube.com/vi/troznI6r17I/hqdefault.jpg)](https://youtu.be/troznI6r17I?si=jvxJS16LaGASb9FW)
+To make sure recruiters know a real developer wrote this, we are going to strip out all the classic AI buzzwords. Real developers don't write marketing pitches; they write direct, functional documentation.
 
+Here is how to avoid the "AI tells":
 
-## How to install this chrome extension locally
-Follow these steps to install the Chrome extension on your browser:
+Kill the buzzwords: Never use words like "leverage," "delve," "elevate," "seamless," or "testament."
 
-### Step 1: Download the Extension Files
-- Download the extension files as a folder or a .zip file.
-- If it's a `.zip` file, extract it to get the folder containing the extension files.
+Keep it blunt: Instead of saying, "This extension empowers users to effortlessly interact with AI," say, "A browser extension that connects to an AI API to answer questions."
 
+Focus on the "How": Recruiters and technical leads just want to know what it is, what it was built with, and how to run it.
 
-### Step 2: Open the Chrome Extensions Page
-- Open Google Chrome.
-- Type the following URL in the address bar and press Enter:
-```
-chrome://extensions/
-```
+Here is a human-sounding, professional README template. I've used asterisks instead of dashes for the bullet points to keep the formatting clean.
 
-### Step 3: Enable Developer Mode
-- At the top-right corner of the Extensions page, toggle the Developer mode switch to turn it on.
+QuickAI-Assistant README Template
+Copy everything below this line and paste it into a new README.md file in your GitHub repository:
 
+QuickAI Assistant
+A lightweight browser extension that brings generative AI directly to your browser tab. Instead of switching tabs to ask questions, users can open the popup and get immediate AI responses.
 
-### Step 4: Load the Extension
-- Click the "Load unpacked" button.
-- In the file browser, navigate to the folder where you have saved the extension files.
-- Select the folder and click "Open" or "Select Folder".
+What it does
+Provides a clean popup interface for quick AI queries.
 
-### Step 5: Verify Installation
-![Screenshot from 2025-01-12 17-23-32](https://github.com/user-attachments/assets/d1b47664-a853-43c7-83c0-72f568c8f354)
-- Once loaded, the extension will appear in the list of installed extensions on the Extensions page.
-- If there are any errors, Chrome will show a warning. Make sure your files (especially manifest.json) are configured correctly.
+Connects directly to an AI API to fetch and display responses.
 
-## How to use this chrome extension?
-Follow these steps to use the Chrome extension on your browser:
+Runs locally as an unpacked browser extension.
 
-### Step 1: Please collect your api key from: GPT or Gemini or Grok
-- Goto the tools website's dashboard and generate api key
-- Note your api key and api endpoint
+Tech Stack
+HTML & CSS: Structure and styling for the extension popup.
 
-### Step 2: Open the extension popup from extension icon from the extension list
-- Add the api endpoint 
-- Add api key 
-- Fillup other input field with any text to pass validations
-- Select which tool you want to use 
+JavaScript (Vanilla): DOM manipulation and handling the API requests.
 
-![Screenshot from 2025-01-12 19-32-26](https://github.com/user-attachments/assets/f0eecb25-6c1d-484d-9cf1-699a30afed5a)
+How to Run It Locally
+Download or clone this repository to your local machine.
 
-### Step 3: Copy any text from any website
-- Right click from the mouse
-- Choose the desire menu and clicked
-![Screenshot from 2025-01-12 19-32-06](https://github.com/user-attachments/assets/fc52f860-e3c0-4538-a4a3-ff2c8ad2c47a)
+Open your browser and navigate to the extensions page (e.g., chrome://extensions/).
 
-### Step 4: After the loading complete you will result like this
-- Click copy button to copy ta raw text
-![Screenshot from 2025-01-12 19-32-56](https://github.com/user-attachments/assets/5d3969f8-f9e5-4ba8-bbaf-748abefe3c4f)
+Turn on Developer mode in the top right corner.
 
+Click Load unpacked and select the QuickAI-Assistant folder.
 
-### Troubleshoot? 
-- Please reach out to me on
-X: https://x.com/hasan_py or
-Linkedin: https://www.linkedin.com/in/hasan-py
-
-
------
-Build with ❤️ by Hasan
-
-
-
-
+Pin the extension to your browser toolbar and click the icon to start using it.
